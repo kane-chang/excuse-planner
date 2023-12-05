@@ -1,17 +1,71 @@
-* {
+body {
+    position: relative;
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    line-height: 1.5;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 100vh;
+    width: auto;
+}
+
+header{
+    color: #7d82ac;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+p{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.container{
+    width: fit-content;
+    max-width: 1200px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+#time-container{
+    display: flex;
+    flex-direction: row;
+}
+
+#buttons-container{
+
+}
+
+.card-header{
+    background-color: #fef9f4;
+    color: #7d82ac;
+    text-align: center;
+}
+
+.daycard{
+    background-color: #e4dfe1;
+    border-radius: 0.5px;
+    padding: 20px;
 }
 
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: "Raleway", sans-serif;
+.list-group-item{
+    text-align: center;
+}
+
+.time-slot{
+    background-color: #acb0d6;
+
+}
+
+.slot-hour{
+    color: #acb0d6;
+
 }
